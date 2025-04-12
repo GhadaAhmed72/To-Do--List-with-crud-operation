@@ -1,0 +1,120 @@
+ body{
+    background-color: rgb(224, 200, 200);
+ }
+ .container{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    background: linear-gradient(to right, #ebe8e8,  #d69ea8);
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.inputContainer{
+    position: relative;
+    width: 353px;
+    margin-bottom: 30px;
+    
+}
+.input-style{
+    width: 250px;
+    padding: 9.2px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(232, 228, 228);
+}
+
+.input-style:focus , .edit-input:focus{
+    border: 2px solid #d3d3d3; 
+    outline: none;
+    background-color: #f4f4f4; 
+}
+
+.buttonContainer{
+    position: absolute;
+    top: 0;
+    right: 0;  
+   
+}
+
+.buttonData{
+    border-radius: 5px;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    background-color: brown;
+    color: white;
+ 
+
+}
+
+
+.to-do-task-line-style{
+    display: flex;
+    /* background-color: red; */
+    width: 353px;
+    position: relative;
+   
+}
+.edit-input{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.cancel-button{
+    width: 80px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9e6564;
+    color: white;
+}
+.edit-button:focus{
+    border: 1px solid rgb(204, 203, 203) !important;
+}
+.edit-button , .delete-button{
+    width: 55px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+   
+
+}
+.delete-button{
+    position: absolute;
+    right: 10px;
+    background-color: #874d4c;
+    color: white;
+}
+.edit-button{
+    position: absolute;
+    right: 70px;
+    background-color: #957378;
+    color: rgb(250, 249, 248);
+
+}
+.task-data {
+    max-width: 180px;
+    word-wrap: break-word;
+    white-space: normal;
+    color: rgb(83, 82, 82);
+    margin-left: 10px;
+    
+  }
+
+  .checkbox-style:checked{
+    background-color: antiquewhite ;
+  
+  }
+  
